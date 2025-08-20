@@ -9,10 +9,10 @@ Output: [2, 4, 6]
 Solution Code :
 
 function findEvenNumbers(array) {
-  let evenNumbers = []; // এখানে সব জোড় সংখ্যা রাখা হবে
+  let evenNumbers = []; 
 
   for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 === 0) { // যদি সংখ্যা জোড় হয়
+    if (array[i] % 2 === 0) { 
       evenNumbers.push(array[i]);
     }
   }
